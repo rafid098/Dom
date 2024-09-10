@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#dompart{
+    background: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+.overly{
+    background: rgba(0, 0, 0, 0.593);
+    padding: 120px 0;
+}
+.inputpart{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 80px 80px;
+    background: rgba(0, 255, 255, 0.486);
+    border-radius: 10px;
+}
+.inputpart input{
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: none;
+}
+.inputpart button{
+    padding: 10px 20px;
+    background: tomato;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+.inputpart button:hover{
+    background: #fd8b77;
+}
+.domtwo{
+    padding: 10px 0;
+}
